@@ -9,12 +9,12 @@ import {
     TextField,
     Typography,
 } from '@mui/material';
-import economy from '/home/he0982/WebstormProjects/untitled/src/logo/economy-svgrepo-com.svg'
-import bulb from '/home/he0982/WebstormProjects/untitled/src/logo/light-bulb-idea-svgrepo-com.svg'
-import business from '/home/he0982/WebstormProjects/untitled/src/logo/presentation-business-and-finance-svgrepo-com.svg'
-import pres from '/home/he0982/WebstormProjects/untitled/src/logo/presentation-svgrepo-com.svg'
-import pyramid from '/home/he0982/WebstormProjects/untitled/src/logo/pyramid-svgrepo-com.svg'
-import sett from '/home/he0982/WebstormProjects/untitled/src/logo/settings-gear-svgrepo-com.svg'
+import economy from './logo/economy-svgrepo-com.svg'
+import bulb from './logo/light-bulb-idea-svgrepo-com.svg'
+import business from './logo/presentation-business-and-finance-svgrepo-com.svg'
+import pres from './logo/presentation-svgrepo-com.svg'
+import pyramid from './logo/pyramid-svgrepo-com.svg'
+import sett from './logo/settings-gear-svgrepo-com.svg'
 // Тут иконочки
 const TabIcons = [
     <img src={economy} width="45px" alt="React Logo" />,
@@ -42,12 +42,12 @@ const App = () => {
 
     const handleRequest = async () => {
         try {
-            // делоем запросик по апи или хуй знает как{
+            // делоем запросик по апи
             const response = await axios.post('https://87.242.91.128.sslip.io/api/v1/ml/',{description: userInput});
-            // Assuming the API response contains an array of 6 strings
+            // помещаем наш ответик
             const responsesArray = response.data;
 
-            // Update state with the response data
+            // обновляем состояния
          setResponses(responsesArray);
         } catch (error) {
             console.error('Error making POST request:', error.message);
