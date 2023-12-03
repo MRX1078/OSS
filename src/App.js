@@ -43,7 +43,7 @@ const App = () => {
     const handleRequest = async () => {
         try {
             // делоем запросик по апи или хуй знает как{
-            const response = await axios.post('http://87.242.91.128/api/v1/ml/',{description: userInput});
+            const response = await axios.post('https://87.242.91.128.sslip.io/api/v1/ml/',{description: userInput});
             // Assuming the API response contains an array of 6 strings
             const responsesArray = response.data;
 
