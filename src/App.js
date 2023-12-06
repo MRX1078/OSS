@@ -43,7 +43,7 @@ const App = () => {
     const handleRequest = async () => {
         try {
             // делоем запросик по апи
-            const response = await axios.post('https://87.242.91.128.sslip.io/api/v1/ml/',{description: userInput});
+            const response = await axios.post('https://87.242.91.128.sslip.io/',{description: userInput});
             // помещаем наш ответик
             const responsesArray = response.data;
 
