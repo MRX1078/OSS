@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/OSS/static/css/main.ea1062c7.css",
+    "main.js": "/OSS/static/js/main.92476b7a.js",
+    "static/media/economy.png": "/OSS/static/media/economy.dde0ac9819ea60150b8a.png",
+    "static/media/team.png": "/OSS/static/media/team.04ca99133466e67b13f3.png",
+    "static/media/business.png": "/OSS/static/media/business.753bf4f54f9fddfe1c01.png",
+    "static/media/konkyrent.png": "/OSS/static/media/konkyrent.95ba55f6998671ee2847.png",
+    "static/media/idea.png": "/OSS/static/media/idea.6e818a37f45414958cb4.png",
+    "static/media/planing.png": "/OSS/static/media/planing.9fe91e5d716291bc7fdf.png",
+    "index.html": "/OSS/index.html",
+    "main.ea1062c7.css.map": "/OSS/static/css/main.ea1062c7.css.map",
+    "main.92476b7a.js.map": "/OSS/static/js/main.92476b7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea1062c7.css",
+    "static/js/main.92476b7a.js"
+  ]
+}
